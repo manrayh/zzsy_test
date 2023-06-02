@@ -1,11 +1,10 @@
 ####################################
 # 创建者：v2rayse.com
-# 客户端：Clash.Meta
-# 创建时间：2023-05-31 09:32:46
+# 客户端：Clash
+# 创建时间：2023-06-02 10:03:00
 # 使用模版：V2RaySE 默认模版
-# 节点数量：108
+# 节点数量：13
 ####################################
-# !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
 allow-lan: true
 log-level: info
@@ -22,795 +21,130 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"日本-2.01MB/s(Youtube:不良林)","type":"trojan","server":"azjp2.downloadvip.cfd","port":443,"udp":true,"password":"f5a18240-423f-47a0-b9a3-5e647bcdf38f","sni":"us4.xn--mes358a9urctx.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"美国-2.89MB/s(Youtube:不良林)","type":"vmess","server":"142.0.130.242","port":47988,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇺🇸_电报频道： @shendu666_1","type":"vmess","server":"142.4.100.36","port":443,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/path/1684994761011","headers":{"host":"www.26167530.xyz"}}}
-  - {"name":"🇨🇳_电报频道： @shendu666_1","type":"ss","server":"free.themars.top","port":32102,"password":"b89b39c2-dc8d-4595-a4c5-54b4fbab3fc2","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇹🇼_电报频道： @shendu666_1","type":"trojan","server":"bgptw3.cnamazon.sbs","port":443,"udp":true,"password":"b31eb45e-7f95-465f-8229-716058f6dc49","sni":"tlsdata.cnamazon.sbs","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸_电报频道： @shendu666_2","type":"vmess","server":"cf.yxjnode.com","port":80,"cipher":"auto","uuid":"09c1d32d-4458-4ebf-b36d-4dd732bae3aa","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/yxzbp","headers":{"host":"dp3.yxjnode.com"}}}
-  - {"name":"🇺🇸_电报频道： @shendu666_3","type":"vmess","server":"104.21.53.35","port":80,"cipher":"auto","uuid":"09c1d32d-4458-4ebf-b36d-4dd732bae3aa","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/yxzbp","headers":{"host":"dp3.yxjnode.com"}}}
-  - {"name":"🇺🇸_电报频道： @shendu666_4","type":"vmess","server":"104.21.53.35","port":80,"cipher":"auto","uuid":"09c1d32d-4458-4ebf-b36d-4dd732bae3aa","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/yxzbp","headers":{"host":"buyvm1.yxjnode.com"}}}
-  - {"name":"🇯🇵_电报频道： @shendu666_1","type":"vmess","server":"cdncf.scyu.app","port":8080,"cipher":"auto","uuid":"4427eafb-3b3a-4265-9a32-fe0ea9cfd736","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/api/v3/download.getFile","headers":{"host":"ssrsub.v01.ssrsub.com"}}}
-  - {"name":"🇺🇸_电报频道： @shendu666_5","type":"vmess","server":"cf.noaries.de","port":2052,"cipher":"auto","uuid":"67c5ce45-7b48-473e-bf25-e4c830b0ed24","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/aries?ed=2048","headers":{"host":"azstu-it.iiio.wiki"}}}
-  - {"name":"美国-3.66MB/s(Youtube:不良林)","type":"vmess","server":"23.224.173.104","port":57183,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"美国-4.78MB/s(Youtube:不良林)","type":"vmess","server":"107.167.12.27","port":41702,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇨🇳_电报频道： @shendu666_2","type":"vmess","server":"183.237.20.158","port":40095,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇺🇸_电报频道： @shendu666_6","type":"vmess","server":"107.148.5.78","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇨🇳_电报频道： @shendu666_3","type":"vmess","server":"25.v2-ray.cyou","port":23625,"cipher":"auto","uuid":"0dd19d20-ec86-3680-b256-87237bafa89e","alterId":2,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"🇨🇳_电报频道： @shendu666_4","type":"vmess","server":"8.v2-ray.cyou","port":23608,"cipher":"auto","uuid":"0dd19d20-ec86-3680-b256-87237bafa89e","alterId":2,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇺🇸_电报频道： @shendu666_7","type":"vmess","server":"cf.yxjnode.com","port":80,"cipher":"auto","uuid":"09c1d32d-4458-4ebf-b36d-4dd732bae3aa","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/yxzbp","headers":{"host":"dp4.yxjnode.com"}}}
-  - {"name":"🇺🇸_电报频道： @shendu666_8","type":"vless","server":"dai.azhou.monster","port":443,"uuid":"df0342fc-1513-499a-b3e8-8db33aca4367","tls":true,"servername":"dai.azhou.monster","network":"ws","ws-opts":{"path":"/duhriqw"}}
-  - {"name":"🇺🇸_电报频道： @shendu666_9","type":"vmess","server":"tech.noaries.de","port":80,"cipher":"auto","uuid":"2d5d8b9c-8ec4-4a37-b610-78e71e13eaef","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"nl.sharecentrepro.com"}}}
-  - {"name":"🇹🇼_电报频道： @shendu666_2","type":"vmess","server":"tw99-hinet.mynodes001.one","port":5432,"cipher":"auto","uuid":"d5ef1df3-4069-3b25-9dc1-16b2be9b3e6b","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"美国-5.16MB/s(Youtube:不良林)","type":"vmess","server":"107.148.194.233","port":55504,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"美国-3.02MB/s(Youtube:不良林)","type":"trojan","server":"163.123.192.154","port":443,"udp":true,"password":"1113a9fa-c6ee-4929-ae93-d29d024b1728","sni":"download.xn--mes358a9urctx.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"韩国-2.16MB/s(Youtube:不良林)","type":"trojan","server":"kr1.microsoft-orgwly.vip","port":443,"udp":true,"password":"169e7740-a73d-49ff-b838-eec2bab35f82","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"台湾-806.2KB/s(Youtube:不良林)","type":"trojan","server":"tw2.microsoft-orgwly.vip","port":80,"udp":true,"password":"fcf74125-99de-4df3-af94-552a0b1ee021","sni":"tls.microsoft-orgwly.vip","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"日本-4.75MB/s(Youtube:不良林)","type":"trojan","server":"fschk.fscloud123456789.com","port":443,"udp":true,"password":"858ad8e5-1566-46cd-a8d8-30d20a6a1b19","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"日本-8.02MB/s(Youtube:不良林)","type":"trojan","server":"fscjp.fscloud123456789.com","port":443,"udp":true,"password":"858ad8e5-1566-46cd-a8d8-30d20a6a1b19","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"英国-3.30MB/s(Youtube:不良林)","type":"vmess","server":"83.142.225.20","port":49920,"cipher":"auto","uuid":"5267ca71-97e6-44c8-8fb5-9fe4afe0954e","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"中国-1.39MB/s(Youtube:不良林)","type":"ss","server":"m3u8.cm.xfltd.cc","port":27759,"password":"0bb8a29d-81fb-49fa-9a16-c6d3135b9870","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇨🇳_电报频道： @shendu666_5","type":"ss","server":"01-2.qqingca.cc","port":20357,"password":"27e2f037-effd-493a-bd28-6004cd9ff1cf","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇨🇳_电报频道： @shendu666_6","type":"ss","server":"01-2.qqingca.cc","port":20398,"password":"27e2f037-effd-493a-bd28-6004cd9ff1cf","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇨🇳_电报频道： @shendu666_7","type":"ss","server":"02-1.qqingca.cc","port":20384,"password":"27e2f037-effd-493a-bd28-6004cd9ff1cf","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇨🇳_电报频道： @shendu666_8","type":"ss","server":"02-1.qqingca.cc","port":20319,"password":"27e2f037-effd-493a-bd28-6004cd9ff1cf","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇨🇳_电报频道： @shendu666_9","type":"ss","server":"02-2.qqingca.cc","port":20315,"password":"27e2f037-effd-493a-bd28-6004cd9ff1cf","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇨🇳_电报频道： @shendu666_10","type":"ss","server":"03-1.qqingca.cc","port":20341,"password":"27e2f037-effd-493a-bd28-6004cd9ff1cf","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇨🇳_电报频道： @shendu666_11","type":"ss","server":"04-1.qqingca.cc","port":20371,"password":"27e2f037-effd-493a-bd28-6004cd9ff1cf","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇨🇳_电报频道： @shendu666_12","type":"ss","server":"04-2.qqingca.cc","port":20379,"password":"27e2f037-effd-493a-bd28-6004cd9ff1cf","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇨🇳_电报频道： @shendu666_13","type":"ss","server":"04-2.qqingca.cc","port":20349,"password":"27e2f037-effd-493a-bd28-6004cd9ff1cf","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸_电报频道： @shendu666_10","type":"vmess","server":"104.18.23.26","port":8080,"cipher":"auto","uuid":"dcafb669-fefc-4994-e3a9-5f40ed6aa7cf","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/sshtproject","headers":{"host":"v2free.sshtproect.shop"}}}
-  - {"name":"🇺🇸_电报频道： @shendu666_11","type":"vmess","server":"107.148.194.235","port":443,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/path/1684907511842","headers":{"host":"www.13364896.xyz"}}}
-  - {"name":"🇺🇸_电报频道： @shendu666_12","type":"vmess","server":"107.148.203.55","port":55337,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇺🇸_电报频道： @shendu666_13","type":"vmess","server":"108.186.116.179","port":443,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/path/1684994761011","headers":{"host":"www.42576874.xyz"}}}
-  - {"name":"🇺🇸_电报频道： @shendu666_14","type":"vmess","server":"108.186.192.226","port":443,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/path/1685094923408","headers":{"host":"www.66880458.xyz"}}}
-  - {"name":"🇭🇰_电报频道： @shendu666","type":"vmess","server":"112.118.195.16","port":80,"cipher":"auto","uuid":"b2947942-701b-4de2-91cd-f6810d5d03bc","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"sg2.freeiq.cf"}}}
-  - {"name":"🇨🇳_电报频道： @shendu666_14","type":"vmess","server":"112.132.215.189","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇨🇳_电报频道： @shendu666_15","type":"vmess","server":"120.226.50.76","port":45070,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇺🇸_电报频道： @shendu666_15","type":"vmess","server":"129.146.247.135","port":14038,"cipher":"auto","uuid":"7949f11e-b1d8-4217-b259-9bc2d2af2c25","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇺🇸_电报频道： @shendu666_16","type":"vmess","server":"137.175.18.93","port":443,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/path/1684907511842","headers":{"host":"www.66273264.xyz"}}}
-  - {"name":"🇺🇸_电报频道： @shendu666_17","type":"vmess","server":"137.175.35.129","port":58007,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇺🇸_电报频道： @shendu666_18","type":"vmess","server":"137.175.9.197","port":443,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/path/1684907511842","headers":{"host":"www.71891316.xyz"}}}
-  - {"name":"🇺🇸_电报频道： @shendu666_19","type":"vmess","server":"142.4.110.122","port":443,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/path/1684907511842","headers":{"host":"www.64830206.xyz"}}}
-  - {"name":"🇺🇸_电报频道： @shendu666_20","type":"vmess","server":"142.4.126.40","port":443,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/path/1684994761011","headers":{"host":"www.29135019.xyz"}}}
-  - {"name":"🇺🇸_电报频道： @shendu666_21","type":"vmess","server":"142.4.99.84","port":443,"cipher":"auto","uuid":"b65da4af-a12a-4a59-9316-4549e12ba62c","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/path/1685094923408","headers":{"host":"www.73332463.xyz"}}}
-  - {"name":"🇫🇷_电报频道： @shendu666_1","type":"vmess","server":"156.249.18.104","port":443,"cipher":"auto","uuid":"63b4b829-7f01-4e26-b037-f04b1f098765","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/path/1684907511842","headers":{"host":"www.32159877.xyz"}}}
-  - {"name":"🇫🇷_电报频道： @shendu666_2","type":"vmess","server":"156.249.18.16","port":443,"cipher":"auto","uuid":"375e70f0-5d46-476f-8d69-0fb35c5548a9","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/path/1684907511842","headers":{"host":"www.36318181.xyz"}}}
-  - {"name":"🇺🇸_电报频道： @shendu666_22","type":"vmess","server":"162.159.1.65","port":2052,"cipher":"auto","uuid":"0227edc4-8735-4370-ac42-4e8147920f0b","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/qwer11","headers":{"host":"tou.vtcss.top"}}}
-  - {"name":"🇺🇸_电报频道： @shendu666_23","type":"vmess","server":"162.159.133.126","port":2052,"cipher":"auto","uuid":"0227edc4-8735-4370-ac42-4e8147920f0b","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/qwer11","headers":{"host":"tou.vtcss.top"}}}
-  - {"name":"🇸🇬_电报频道： @shendu666_1","type":"trojan","server":"165.154.253.144","port":443,"udp":true,"password":"ca7febc2-bb45-4e6d-810e-ab0af6009c4e","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇸🇬_电报频道： @shendu666_2","type":"vmess","server":"168.138.174.249","port":41921,"cipher":"auto","uuid":"2308da67-868d-4bc0-e040-aa087a57312f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ssss"}}
-  - {"name":"🇸🇬_电报频道： @shendu666_3","type":"vmess","server":"168.138.174.249","port":41921,"cipher":"auto","uuid":"2308da67-868d-4bc0-e040-aa087a57312f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ssss","headers":{"host":"168.138.174.249"}}}
-  - {"name":"🇯🇵_电报频道： @shendu666_2","type":"vmess","server":"172.105.207.228","port":443,"cipher":"auto","uuid":"927094d3-d678-4763-8591-e240d0bcae87","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/chat"}}
-  - {"name":"🇬🇧_电报频道： @shendu666","type":"vmess","server":"178.239.171.103","port":80,"cipher":"auto","uuid":"61280f80-cd25-4c7b-8e5a-b1560617047a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/T5t5p1DPeSIooUZfEmkFAYfTxZ"}}
-  - {"name":"🇺🇸_电报频道： @shendu666_24","type":"vmess","server":"192.74.224.27","port":54027,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇺🇸_电报频道： @shendu666_25","type":"vmess","server":"192.74.231.181","port":443,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/path/1685094923408","headers":{"host":"www.70814184.xyz"}}}
-  - {"name":"🇺🇸_电报频道： @shendu666_26","type":"vmess","server":"198.2.196.49","port":54434,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇺🇸_电报频道： @shendu666_27","type":"vmess","server":"198.2.204.252","port":443,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/path/1684994761011","headers":{"host":"www.11141292.xyz"}}}
-  - {"name":"🇺🇸_电报频道： @shendu666_28","type":"vmess","server":"23.224.11.147","port":443,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/path/1684994761011","headers":{"host":"www.76432641.xyz"}}}
-  - {"name":"🇺🇸_电报频道： @shendu666_29","type":"vmess","server":"23.225.33.173","port":443,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/path/1685094923408","headers":{"host":"www.53638055.xyz"}}}
-  - {"name":"🇨🇳_电报频道： @shendu666_16","type":"vmess","server":"36.133.171.209","port":11023,"cipher":"auto","uuid":"8c042a38-71c1-1dcb-00df-54880236e0dc","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇨🇳_电报频道： @shendu666_17","type":"vmess","server":"36.134.16.171","port":11023,"cipher":"auto","uuid":"8c042a38-71c1-1dcb-00df-54880236e0dc","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇨🇳_电报频道： @shendu666_18","type":"vmess","server":"36.134.16.190","port":11023,"cipher":"auto","uuid":"8c042a38-71c1-1dcb-00df-54880236e0dc","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇨🇳_电报频道： @shendu666_19","type":"vmess","server":"36.134.16.96","port":11023,"cipher":"auto","uuid":"8c042a38-71c1-1dcb-00df-54880236e0dc","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇺🇸_电报频道： @shendu666_30","type":"vmess","server":"38.40.158.253","port":443,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/path/1685094923408","headers":{"host":"www.72764147.xyz"}}}
-  - {"name":"🇺🇸_电报频道： @shendu666_31","type":"vmess","server":"38.60.208.68","port":20037,"cipher":"auto","uuid":"a529cf39-d753-41e5-a72a-64cf8d48f469","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/tk2/getData"}}
-  - {"name":"🇫🇷_电报频道： @shendu666_3","type":"vmess","server":"51.195.35.148","port":443,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/path/1684994761011","headers":{"host":"www.17920506.xyz"}}}
-  - {"name":"🇫🇷_电报频道： @shendu666_4","type":"vmess","server":"51.195.35.148","port":443,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/path/1684580752213","headers":{"host":"www.17920506.xyz"}}}
-  - {"name":"🇺🇸_电报频道： @shendu666_32","type":"vmess","server":"74.217.179.166","port":443,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/path/1684994761011","headers":{"host":"www.52033619.xyz"}}}
-  - {"name":"🇸🇬_电报频道： @shendu666_4","type":"trojan","server":"ap.stablize.top","port":443,"udp":true,"password":"6191d59d-021c-4af1-8197-85d52c564ac4","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸_电报频道： @shendu666_33","type":"vless","server":"ashcan.aurorainiceland.com","port":443,"uuid":"9c9f7230-c8ff-44d2-93f2-a1febbc23767","tls":true,"servername":"ashcan.aurorainiceland.com","network":"ws","ws-opts":{"path":"/nimws"}}
-  - {"name":"🇯🇵_电报频道： @shendu666_3","type":"trojan","server":"azjp1.downloadvip.cfd","port":443,"udp":true,"password":"8d05cc82-7059-4b73-92ff-f8b6e407fd80","sni":"us1.xn--mes358acgm99l.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇨🇳_电报频道： @shendu666_20","type":"vmess","server":"cdn.jike.cyou","port":50037,"cipher":"auto","uuid":"5963625c-4f93-4c75-b7d6-32ac2178de5b","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇺🇸_电报频道： @shendu666_34","type":"vmess","server":"cf.yxjnode.com","port":80,"cipher":"auto","uuid":"09c1d32d-4458-4ebf-b36d-4dd732bae3aa","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/yxzbp","headers":{"host":"buyvm2.yxjnode.com"}}}
-  - {"name":"🇺🇸_电报频道： @shendu666_35","type":"vmess","server":"cf.yxjnode.com","port":80,"cipher":"auto","uuid":"09c1d32d-4458-4ebf-b36d-4dd732bae3aa","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/yxzbp","headers":{"host":"dp2.yxjnode.com"}}}
-  - {"name":"🇺🇸_电报频道： @shendu666_36","type":"vmess","server":"cf.yxjnode.com","port":80,"cipher":"auto","uuid":"09c1d32d-4458-4ebf-b36d-4dd732bae3aa","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/yxzbp","headers":{"host":"buyvm1.yxjnode.com"}}}
-  - {"name":"🇺🇸_电报频道： @shendu666_37","type":"vless","server":"first.baoshi750105.top","port":443,"uuid":"d65eb109-efe6-4941-b726-674fe55f22ae","tls":true,"servername":"first.baoshi750105.top","network":"ws","ws-opts":{"path":"/caoyu1932"}}
-  - {"name":"🇨🇳_电报频道： @shendu666_21","type":"ss","server":"free.themars.top","port":32103,"password":"b89b39c2-dc8d-4595-a4c5-54b4fbab3fc2","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇸🇬_电报频道： @shendu666_5","type":"trojan","server":"kr.stablize.top","port":443,"udp":true,"password":"a8e47554-718a-4e66-be3c-7289b2a8ee31","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇯🇵_电报频道： @shendu666_4","type":"vmess","server":"oracle01.jiting.space","port":38829,"cipher":"auto","uuid":"590e49c2-dd24-41ff-91b8-cc792d0cfeab","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇯🇵_电报频道： @shendu666_5","type":"vmess","server":"oracle02.jiting.space","port":25494,"cipher":"auto","uuid":"960040e9-ad9b-4e39-fb90-f9ba90c4b7a2","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇸🇬_电报频道： @shendu666_6","type":"trojan","server":"ukjs.stablize.top","port":443,"udp":true,"password":"a8e47554-718a-4e66-be3c-7289b2a8ee31","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸_电报频道： @shendu666_38","type":"vmess","server":"v133.toddns.gq","port":80,"cipher":"auto","uuid":"cd1836ed-78be-3dcb-9fb1-9d2a4bdfecb8","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/v133PDXkklxLEcOvD","headers":{"host":"v133.toddns.gq"}}}
-  - {"name":"🇻🇳_电报频道： @shendu666","type":"trojan","server":"vn2.microsoft-orgwly.vip","port":443,"udp":true,"password":"fcf74125-99de-4df3-af94-552a0b1ee021","sni":"tls.microsoft-orgwly.vip","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸_电报频道： @shendu666_39","type":"vmess","server":"yn1.01dj.sbs","port":443,"cipher":"auto","uuid":"95b2dc83-a476-4a82-93b2-0d77b4c30c18","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/sometimesnaive","headers":{"host":"yn1.01dj.sbs"}}}
-  - {"name":"🇺🇸_电报频道： @shendu666_40","type":"vmess","server":"yuolee.vtcss.top","port":80,"cipher":"auto","uuid":"a603bc16-1411-46e1-ceb4-1bb8451f0d91","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/qwer"}}
-  - {"name":"美国-1.70MB/s(Youtube:不良林)","type":"vmess","server":"23.224.173.104","port":57183,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"美国-850.5KB/s(Youtube:不良林)","type":"vmess","server":"192.74.228.179","port":42857,"cipher":"auto","uuid":"051b844f-efe3-4847-92aa-66b5de0b6d4e","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"美国-4.41MB/s(Youtube:不良林)","type":"vmess","server":"107.167.12.27","port":41702,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"美国-4.45MB/s(Youtube:不良林)","type":"vmess","server":"cdn-xjp5.cqjsl.xyz","port":443,"cipher":"auto","uuid":"85c27619-fd14-4893-a56e-05944326c6f9","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"cdn-xjp5.cqjsl.xyz"}}}
+  - {"name":"🇯🇵_电报频道： @shendu666","type":"trojan","server":"azjp1.downloadvip.cfd","port":443,"udp":true,"password":"8d05cc82-7059-4b73-92ff-f8b6e407fd80","sni":"us1.xn--mes358acgm99l.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇨🇳_电报频道： @shendu666_1","type":"ss","server":"free.themars.top","port":32103,"password":"b89b39c2-dc8d-4595-a4c5-54b4fbab3fc2","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇨🇳_电报频道： @shendu666_2","type":"ss","server":"free.themars.top","port":32102,"password":"b89b39c2-dc8d-4595-a4c5-54b4fbab3fc2","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸_电报频道： @shendu666_1","type":"vmess","server":"104.21.53.35","port":80,"cipher":"auto","uuid":"09c1d32d-4458-4ebf-b36d-4dd732bae3aa","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/yxzbp","headers":{"host":"dp3.yxjnode.com"}}}
+  - {"name":"🇺🇸_电报频道： @shendu666_2","type":"vmess","server":"104.21.53.35","port":80,"cipher":"auto","uuid":"09c1d32d-4458-4ebf-b36d-4dd732bae3aa","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/yxzbp","headers":{"host":"buyvm1.yxjnode.com"}}}
+  - {"name":"🇺🇸_电报频道： @shendu666_3","type":"vmess","server":"cf.yxjnode.com","port":80,"cipher":"auto","uuid":"09c1d32d-4458-4ebf-b36d-4dd732bae3aa","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/yxzbp","headers":{"host":"dp3.yxjnode.com"}}}
   - {"name":"美国-347.5KB/s(Youtube:不良林)","type":"vmess","server":"cf-lt.sharecentre.online","port":80,"cipher":"auto","uuid":"2d5d8b9c-8ec4-4a37-b610-78e71e13eaef","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"lv1.sharecentrepro.org"}}}
-  - {"name":"韩国-966.9KB/s(Youtube:不良林)","type":"trojan","server":"kr2.microsoft-orgwly.vip","port":443,"udp":true,"password":"169e7740-a73d-49ff-b838-eec2bab35f82","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"美国-4.97MB/s(Youtube:不良林)","type":"vmess","server":"23.224.110.184","port":443,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/path/080712342310"}}
-  - {"name":"新加坡-173.6KB/s(Youtube:不良林)","type":"vmess","server":"43.156.131.164","port":43860,"cipher":"auto","uuid":"be3fdec2-86e1-4d51-969b-704b1efc3158","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/sg2/getData"}}
-  - {"name":"美国-4.92MB/s(Youtube:不良林)","type":"vmess","server":"cdn-xjp5.cqjsl.xyz","port":443,"cipher":"auto","uuid":"d155a539-c3ff-4430-b389-fe3ce4a81900","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"cdn-xjp5.cqjsl.xyz"}}}
-  - {"name":"印度-3.09MB/s(Youtube:不良林)","type":"trojan","server":"152.70.74.66","port":443,"udp":true,"password":"d906afe5-7c3c-4ddc-aaa4-61c154a82e5e","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"美国-3.35MB/s(Youtube:不良林)","type":"vmess","server":"137.175.18.109","port":50004,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"美国-2.97MB/s(Youtube:不良林)","type":"vmess","server":"192.74.228.174","port":42857,"cipher":"auto","uuid":"051b844f-efe3-4847-92aa-66b5de0b6d4e","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"未知国家-3.44MB/s(Youtube:不良林)","type":"vmess","server":"cftokyo1.tnetvpn.com","port":8443,"cipher":"auto","uuid":"89401822-66ce-4fa0-ae71-7f0d495e9c9c","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/relay","headers":{"host":"cftokyo1.tnetvpn.com"}}}
-  - {"name":"香港-1.36MB/s(Youtube:不良林)","type":"vmess","server":"156.227.6.7","port":43692,"cipher":"auto","uuid":"d3b43b85-1b50-4cb5-9738-8d65bae2c95d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"香港-1.29MB/s(Youtube:不良林)","type":"vmess","server":"43.154.122.126","port":48122,"cipher":"auto","uuid":"82adc998-88ab-4c87-8b86-5bc39e80f5b2","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/hk1/getData"}}
-  - {"name":"美国-4.14MB/s(Youtube:不良林)","type":"trojan","server":"ukjs.stablize.top","port":443,"udp":true,"password":"cf1df355-e505-44a5-9c80-3fe732de1c71","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸_电报频道： @shendu666_4","type":"vmess","server":"cf.yxjnode.com","port":80,"cipher":"auto","uuid":"09c1d32d-4458-4ebf-b36d-4dd732bae3aa","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/yxzbp","headers":{"host":"buyvm2.yxjnode.com"}}}
+  - {"name":"美国-5.03MB/s(Youtube:不良林)","type":"vmess","server":"140.99.66.117","port":54402,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"美国-352.4KB/s(Youtube:不良林)","type":"vmess","server":"cdn.yuntujisu.ml","port":2095,"cipher":"auto","uuid":"d59b24b1-b475-4d44-be46-a18563a87711","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"nanous.ytjs114514.ml"}}}
+  - {"name":"🇺🇸_电报频道： @shendu666_5","type":"vmess","server":"cf.yxjnode.com","port":80,"cipher":"auto","uuid":"09c1d32d-4458-4ebf-b36d-4dd732bae3aa","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/yxzbp","headers":{"host":"buyvm1.yxjnode.com"}}}
+  - {"name":"法国-3.20MB/s(Youtube:不良林)","type":"vmess","server":"156.249.18.9","port":443,"cipher":"auto","uuid":"5a4d69ad-20a9-4941-b223-87bbd09f5f52","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/path/1684306272430","headers":{"host":"www.48643700.xyz"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 日本-2.01MB/s(Youtube:不良林)
-      - 美国-2.89MB/s(Youtube:不良林)
-      - 🇺🇸_电报频道： @shendu666_1
+      - 美国-4.45MB/s(Youtube:不良林)
+      - 🇯🇵_电报频道： @shendu666
       - 🇨🇳_电报频道： @shendu666_1
-      - 🇹🇼_电报频道： @shendu666_1
+      - 🇨🇳_电报频道： @shendu666_2
+      - 🇺🇸_电报频道： @shendu666_1
       - 🇺🇸_电报频道： @shendu666_2
       - 🇺🇸_电报频道： @shendu666_3
-      - 🇺🇸_电报频道： @shendu666_4
-      - 🇯🇵_电报频道： @shendu666_1
-      - 🇺🇸_电报频道： @shendu666_5
-      - 美国-3.66MB/s(Youtube:不良林)
-      - 美国-4.78MB/s(Youtube:不良林)
-      - 🇨🇳_电报频道： @shendu666_2
-      - 🇺🇸_电报频道： @shendu666_6
-      - 🇨🇳_电报频道： @shendu666_3
-      - 🇨🇳_电报频道： @shendu666_4
-      - 🇺🇸_电报频道： @shendu666_7
-      - 🇺🇸_电报频道： @shendu666_8
-      - 🇺🇸_电报频道： @shendu666_9
-      - 🇹🇼_电报频道： @shendu666_2
-      - 美国-5.16MB/s(Youtube:不良林)
-      - 美国-3.02MB/s(Youtube:不良林)
-      - 韩国-2.16MB/s(Youtube:不良林)
-      - 台湾-806.2KB/s(Youtube:不良林)
-      - 日本-4.75MB/s(Youtube:不良林)
-      - 日本-8.02MB/s(Youtube:不良林)
-      - 英国-3.30MB/s(Youtube:不良林)
-      - 中国-1.39MB/s(Youtube:不良林)
-      - 🇨🇳_电报频道： @shendu666_5
-      - 🇨🇳_电报频道： @shendu666_6
-      - 🇨🇳_电报频道： @shendu666_7
-      - 🇨🇳_电报频道： @shendu666_8
-      - 🇨🇳_电报频道： @shendu666_9
-      - 🇨🇳_电报频道： @shendu666_10
-      - 🇨🇳_电报频道： @shendu666_11
-      - 🇨🇳_电报频道： @shendu666_12
-      - 🇨🇳_电报频道： @shendu666_13
-      - 🇺🇸_电报频道： @shendu666_10
-      - 🇺🇸_电报频道： @shendu666_11
-      - 🇺🇸_电报频道： @shendu666_12
-      - 🇺🇸_电报频道： @shendu666_13
-      - 🇺🇸_电报频道： @shendu666_14
-      - 🇭🇰_电报频道： @shendu666
-      - 🇨🇳_电报频道： @shendu666_14
-      - 🇨🇳_电报频道： @shendu666_15
-      - 🇺🇸_电报频道： @shendu666_15
-      - 🇺🇸_电报频道： @shendu666_16
-      - 🇺🇸_电报频道： @shendu666_17
-      - 🇺🇸_电报频道： @shendu666_18
-      - 🇺🇸_电报频道： @shendu666_19
-      - 🇺🇸_电报频道： @shendu666_20
-      - 🇺🇸_电报频道： @shendu666_21
-      - 🇫🇷_电报频道： @shendu666_1
-      - 🇫🇷_电报频道： @shendu666_2
-      - 🇺🇸_电报频道： @shendu666_22
-      - 🇺🇸_电报频道： @shendu666_23
-      - 🇸🇬_电报频道： @shendu666_1
-      - 🇸🇬_电报频道： @shendu666_2
-      - 🇸🇬_电报频道： @shendu666_3
-      - 🇯🇵_电报频道： @shendu666_2
-      - 🇬🇧_电报频道： @shendu666
-      - 🇺🇸_电报频道： @shendu666_24
-      - 🇺🇸_电报频道： @shendu666_25
-      - 🇺🇸_电报频道： @shendu666_26
-      - 🇺🇸_电报频道： @shendu666_27
-      - 🇺🇸_电报频道： @shendu666_28
-      - 🇺🇸_电报频道： @shendu666_29
-      - 🇨🇳_电报频道： @shendu666_16
-      - 🇨🇳_电报频道： @shendu666_17
-      - 🇨🇳_电报频道： @shendu666_18
-      - 🇨🇳_电报频道： @shendu666_19
-      - 🇺🇸_电报频道： @shendu666_30
-      - 🇺🇸_电报频道： @shendu666_31
-      - 🇫🇷_电报频道： @shendu666_3
-      - 🇫🇷_电报频道： @shendu666_4
-      - 🇺🇸_电报频道： @shendu666_32
-      - 🇸🇬_电报频道： @shendu666_4
-      - 🇺🇸_电报频道： @shendu666_33
-      - 🇯🇵_电报频道： @shendu666_3
-      - 🇨🇳_电报频道： @shendu666_20
-      - 🇺🇸_电报频道： @shendu666_34
-      - 🇺🇸_电报频道： @shendu666_35
-      - 🇺🇸_电报频道： @shendu666_36
-      - 🇺🇸_电报频道： @shendu666_37
-      - 🇨🇳_电报频道： @shendu666_21
-      - 🇸🇬_电报频道： @shendu666_5
-      - 🇯🇵_电报频道： @shendu666_4
-      - 🇯🇵_电报频道： @shendu666_5
-      - 🇸🇬_电报频道： @shendu666_6
-      - 🇺🇸_电报频道： @shendu666_38
-      - 🇻🇳_电报频道： @shendu666
-      - 🇺🇸_电报频道： @shendu666_39
-      - 🇺🇸_电报频道： @shendu666_40
-      - 美国-1.70MB/s(Youtube:不良林)
-      - 美国-850.5KB/s(Youtube:不良林)
-      - 美国-4.41MB/s(Youtube:不良林)
       - 美国-347.5KB/s(Youtube:不良林)
-      - 韩国-966.9KB/s(Youtube:不良林)
-      - 美国-4.97MB/s(Youtube:不良林)
-      - 新加坡-173.6KB/s(Youtube:不良林)
-      - 美国-4.92MB/s(Youtube:不良林)
-      - 印度-3.09MB/s(Youtube:不良林)
-      - 美国-3.35MB/s(Youtube:不良林)
-      - 美国-2.97MB/s(Youtube:不良林)
-      - 未知国家-3.44MB/s(Youtube:不良林)
-      - 香港-1.36MB/s(Youtube:不良林)
-      - 香港-1.29MB/s(Youtube:不良林)
-      - 美国-4.14MB/s(Youtube:不良林)
+      - 🇺🇸_电报频道： @shendu666_4
+      - 美国-5.03MB/s(Youtube:不良林)
+      - 美国-352.4KB/s(Youtube:不良林)
+      - 🇺🇸_电报频道： @shendu666_5
+      - 法国-3.20MB/s(Youtube:不良林)
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 日本-2.01MB/s(Youtube:不良林)
-      - 美国-2.89MB/s(Youtube:不良林)
-      - 🇺🇸_电报频道： @shendu666_1
+      - 美国-4.45MB/s(Youtube:不良林)
+      - 🇯🇵_电报频道： @shendu666
       - 🇨🇳_电报频道： @shendu666_1
-      - 🇹🇼_电报频道： @shendu666_1
+      - 🇨🇳_电报频道： @shendu666_2
+      - 🇺🇸_电报频道： @shendu666_1
       - 🇺🇸_电报频道： @shendu666_2
       - 🇺🇸_电报频道： @shendu666_3
-      - 🇺🇸_电报频道： @shendu666_4
-      - 🇯🇵_电报频道： @shendu666_1
-      - 🇺🇸_电报频道： @shendu666_5
-      - 美国-3.66MB/s(Youtube:不良林)
-      - 美国-4.78MB/s(Youtube:不良林)
-      - 🇨🇳_电报频道： @shendu666_2
-      - 🇺🇸_电报频道： @shendu666_6
-      - 🇨🇳_电报频道： @shendu666_3
-      - 🇨🇳_电报频道： @shendu666_4
-      - 🇺🇸_电报频道： @shendu666_7
-      - 🇺🇸_电报频道： @shendu666_8
-      - 🇺🇸_电报频道： @shendu666_9
-      - 🇹🇼_电报频道： @shendu666_2
-      - 美国-5.16MB/s(Youtube:不良林)
-      - 美国-3.02MB/s(Youtube:不良林)
-      - 韩国-2.16MB/s(Youtube:不良林)
-      - 台湾-806.2KB/s(Youtube:不良林)
-      - 日本-4.75MB/s(Youtube:不良林)
-      - 日本-8.02MB/s(Youtube:不良林)
-      - 英国-3.30MB/s(Youtube:不良林)
-      - 中国-1.39MB/s(Youtube:不良林)
-      - 🇨🇳_电报频道： @shendu666_5
-      - 🇨🇳_电报频道： @shendu666_6
-      - 🇨🇳_电报频道： @shendu666_7
-      - 🇨🇳_电报频道： @shendu666_8
-      - 🇨🇳_电报频道： @shendu666_9
-      - 🇨🇳_电报频道： @shendu666_10
-      - 🇨🇳_电报频道： @shendu666_11
-      - 🇨🇳_电报频道： @shendu666_12
-      - 🇨🇳_电报频道： @shendu666_13
-      - 🇺🇸_电报频道： @shendu666_10
-      - 🇺🇸_电报频道： @shendu666_11
-      - 🇺🇸_电报频道： @shendu666_12
-      - 🇺🇸_电报频道： @shendu666_13
-      - 🇺🇸_电报频道： @shendu666_14
-      - 🇭🇰_电报频道： @shendu666
-      - 🇨🇳_电报频道： @shendu666_14
-      - 🇨🇳_电报频道： @shendu666_15
-      - 🇺🇸_电报频道： @shendu666_15
-      - 🇺🇸_电报频道： @shendu666_16
-      - 🇺🇸_电报频道： @shendu666_17
-      - 🇺🇸_电报频道： @shendu666_18
-      - 🇺🇸_电报频道： @shendu666_19
-      - 🇺🇸_电报频道： @shendu666_20
-      - 🇺🇸_电报频道： @shendu666_21
-      - 🇫🇷_电报频道： @shendu666_1
-      - 🇫🇷_电报频道： @shendu666_2
-      - 🇺🇸_电报频道： @shendu666_22
-      - 🇺🇸_电报频道： @shendu666_23
-      - 🇸🇬_电报频道： @shendu666_1
-      - 🇸🇬_电报频道： @shendu666_2
-      - 🇸🇬_电报频道： @shendu666_3
-      - 🇯🇵_电报频道： @shendu666_2
-      - 🇬🇧_电报频道： @shendu666
-      - 🇺🇸_电报频道： @shendu666_24
-      - 🇺🇸_电报频道： @shendu666_25
-      - 🇺🇸_电报频道： @shendu666_26
-      - 🇺🇸_电报频道： @shendu666_27
-      - 🇺🇸_电报频道： @shendu666_28
-      - 🇺🇸_电报频道： @shendu666_29
-      - 🇨🇳_电报频道： @shendu666_16
-      - 🇨🇳_电报频道： @shendu666_17
-      - 🇨🇳_电报频道： @shendu666_18
-      - 🇨🇳_电报频道： @shendu666_19
-      - 🇺🇸_电报频道： @shendu666_30
-      - 🇺🇸_电报频道： @shendu666_31
-      - 🇫🇷_电报频道： @shendu666_3
-      - 🇫🇷_电报频道： @shendu666_4
-      - 🇺🇸_电报频道： @shendu666_32
-      - 🇸🇬_电报频道： @shendu666_4
-      - 🇺🇸_电报频道： @shendu666_33
-      - 🇯🇵_电报频道： @shendu666_3
-      - 🇨🇳_电报频道： @shendu666_20
-      - 🇺🇸_电报频道： @shendu666_34
-      - 🇺🇸_电报频道： @shendu666_35
-      - 🇺🇸_电报频道： @shendu666_36
-      - 🇺🇸_电报频道： @shendu666_37
-      - 🇨🇳_电报频道： @shendu666_21
-      - 🇸🇬_电报频道： @shendu666_5
-      - 🇯🇵_电报频道： @shendu666_4
-      - 🇯🇵_电报频道： @shendu666_5
-      - 🇸🇬_电报频道： @shendu666_6
-      - 🇺🇸_电报频道： @shendu666_38
-      - 🇻🇳_电报频道： @shendu666
-      - 🇺🇸_电报频道： @shendu666_39
-      - 🇺🇸_电报频道： @shendu666_40
-      - 美国-1.70MB/s(Youtube:不良林)
-      - 美国-850.5KB/s(Youtube:不良林)
-      - 美国-4.41MB/s(Youtube:不良林)
       - 美国-347.5KB/s(Youtube:不良林)
-      - 韩国-966.9KB/s(Youtube:不良林)
-      - 美国-4.97MB/s(Youtube:不良林)
-      - 新加坡-173.6KB/s(Youtube:不良林)
-      - 美国-4.92MB/s(Youtube:不良林)
-      - 印度-3.09MB/s(Youtube:不良林)
-      - 美国-3.35MB/s(Youtube:不良林)
-      - 美国-2.97MB/s(Youtube:不良林)
-      - 未知国家-3.44MB/s(Youtube:不良林)
-      - 香港-1.36MB/s(Youtube:不良林)
-      - 香港-1.29MB/s(Youtube:不良林)
-      - 美国-4.14MB/s(Youtube:不良林)
+      - 🇺🇸_电报频道： @shendu666_4
+      - 美国-5.03MB/s(Youtube:不良林)
+      - 美国-352.4KB/s(Youtube:不良林)
+      - 🇺🇸_电报频道： @shendu666_5
+      - 法国-3.20MB/s(Youtube:不良林)
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 日本-2.01MB/s(Youtube:不良林)
-      - 美国-2.89MB/s(Youtube:不良林)
-      - 🇺🇸_电报频道： @shendu666_1
+      - 美国-4.45MB/s(Youtube:不良林)
+      - 🇯🇵_电报频道： @shendu666
       - 🇨🇳_电报频道： @shendu666_1
-      - 🇹🇼_电报频道： @shendu666_1
+      - 🇨🇳_电报频道： @shendu666_2
+      - 🇺🇸_电报频道： @shendu666_1
       - 🇺🇸_电报频道： @shendu666_2
       - 🇺🇸_电报频道： @shendu666_3
-      - 🇺🇸_电报频道： @shendu666_4
-      - 🇯🇵_电报频道： @shendu666_1
-      - 🇺🇸_电报频道： @shendu666_5
-      - 美国-3.66MB/s(Youtube:不良林)
-      - 美国-4.78MB/s(Youtube:不良林)
-      - 🇨🇳_电报频道： @shendu666_2
-      - 🇺🇸_电报频道： @shendu666_6
-      - 🇨🇳_电报频道： @shendu666_3
-      - 🇨🇳_电报频道： @shendu666_4
-      - 🇺🇸_电报频道： @shendu666_7
-      - 🇺🇸_电报频道： @shendu666_8
-      - 🇺🇸_电报频道： @shendu666_9
-      - 🇹🇼_电报频道： @shendu666_2
-      - 美国-5.16MB/s(Youtube:不良林)
-      - 美国-3.02MB/s(Youtube:不良林)
-      - 韩国-2.16MB/s(Youtube:不良林)
-      - 台湾-806.2KB/s(Youtube:不良林)
-      - 日本-4.75MB/s(Youtube:不良林)
-      - 日本-8.02MB/s(Youtube:不良林)
-      - 英国-3.30MB/s(Youtube:不良林)
-      - 中国-1.39MB/s(Youtube:不良林)
-      - 🇨🇳_电报频道： @shendu666_5
-      - 🇨🇳_电报频道： @shendu666_6
-      - 🇨🇳_电报频道： @shendu666_7
-      - 🇨🇳_电报频道： @shendu666_8
-      - 🇨🇳_电报频道： @shendu666_9
-      - 🇨🇳_电报频道： @shendu666_10
-      - 🇨🇳_电报频道： @shendu666_11
-      - 🇨🇳_电报频道： @shendu666_12
-      - 🇨🇳_电报频道： @shendu666_13
-      - 🇺🇸_电报频道： @shendu666_10
-      - 🇺🇸_电报频道： @shendu666_11
-      - 🇺🇸_电报频道： @shendu666_12
-      - 🇺🇸_电报频道： @shendu666_13
-      - 🇺🇸_电报频道： @shendu666_14
-      - 🇭🇰_电报频道： @shendu666
-      - 🇨🇳_电报频道： @shendu666_14
-      - 🇨🇳_电报频道： @shendu666_15
-      - 🇺🇸_电报频道： @shendu666_15
-      - 🇺🇸_电报频道： @shendu666_16
-      - 🇺🇸_电报频道： @shendu666_17
-      - 🇺🇸_电报频道： @shendu666_18
-      - 🇺🇸_电报频道： @shendu666_19
-      - 🇺🇸_电报频道： @shendu666_20
-      - 🇺🇸_电报频道： @shendu666_21
-      - 🇫🇷_电报频道： @shendu666_1
-      - 🇫🇷_电报频道： @shendu666_2
-      - 🇺🇸_电报频道： @shendu666_22
-      - 🇺🇸_电报频道： @shendu666_23
-      - 🇸🇬_电报频道： @shendu666_1
-      - 🇸🇬_电报频道： @shendu666_2
-      - 🇸🇬_电报频道： @shendu666_3
-      - 🇯🇵_电报频道： @shendu666_2
-      - 🇬🇧_电报频道： @shendu666
-      - 🇺🇸_电报频道： @shendu666_24
-      - 🇺🇸_电报频道： @shendu666_25
-      - 🇺🇸_电报频道： @shendu666_26
-      - 🇺🇸_电报频道： @shendu666_27
-      - 🇺🇸_电报频道： @shendu666_28
-      - 🇺🇸_电报频道： @shendu666_29
-      - 🇨🇳_电报频道： @shendu666_16
-      - 🇨🇳_电报频道： @shendu666_17
-      - 🇨🇳_电报频道： @shendu666_18
-      - 🇨🇳_电报频道： @shendu666_19
-      - 🇺🇸_电报频道： @shendu666_30
-      - 🇺🇸_电报频道： @shendu666_31
-      - 🇫🇷_电报频道： @shendu666_3
-      - 🇫🇷_电报频道： @shendu666_4
-      - 🇺🇸_电报频道： @shendu666_32
-      - 🇸🇬_电报频道： @shendu666_4
-      - 🇺🇸_电报频道： @shendu666_33
-      - 🇯🇵_电报频道： @shendu666_3
-      - 🇨🇳_电报频道： @shendu666_20
-      - 🇺🇸_电报频道： @shendu666_34
-      - 🇺🇸_电报频道： @shendu666_35
-      - 🇺🇸_电报频道： @shendu666_36
-      - 🇺🇸_电报频道： @shendu666_37
-      - 🇨🇳_电报频道： @shendu666_21
-      - 🇸🇬_电报频道： @shendu666_5
-      - 🇯🇵_电报频道： @shendu666_4
-      - 🇯🇵_电报频道： @shendu666_5
-      - 🇸🇬_电报频道： @shendu666_6
-      - 🇺🇸_电报频道： @shendu666_38
-      - 🇻🇳_电报频道： @shendu666
-      - 🇺🇸_电报频道： @shendu666_39
-      - 🇺🇸_电报频道： @shendu666_40
-      - 美国-1.70MB/s(Youtube:不良林)
-      - 美国-850.5KB/s(Youtube:不良林)
-      - 美国-4.41MB/s(Youtube:不良林)
       - 美国-347.5KB/s(Youtube:不良林)
-      - 韩国-966.9KB/s(Youtube:不良林)
-      - 美国-4.97MB/s(Youtube:不良林)
-      - 新加坡-173.6KB/s(Youtube:不良林)
-      - 美国-4.92MB/s(Youtube:不良林)
-      - 印度-3.09MB/s(Youtube:不良林)
-      - 美国-3.35MB/s(Youtube:不良林)
-      - 美国-2.97MB/s(Youtube:不良林)
-      - 未知国家-3.44MB/s(Youtube:不良林)
-      - 香港-1.36MB/s(Youtube:不良林)
-      - 香港-1.29MB/s(Youtube:不良林)
-      - 美国-4.14MB/s(Youtube:不良林)
+      - 🇺🇸_电报频道： @shendu666_4
+      - 美国-5.03MB/s(Youtube:不良林)
+      - 美国-352.4KB/s(Youtube:不良林)
+      - 🇺🇸_电报频道： @shendu666_5
+      - 法国-3.20MB/s(Youtube:不良林)
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 日本-2.01MB/s(Youtube:不良林)
-      - 美国-2.89MB/s(Youtube:不良林)
-      - 🇺🇸_电报频道： @shendu666_1
+      - 美国-4.45MB/s(Youtube:不良林)
+      - 🇯🇵_电报频道： @shendu666
       - 🇨🇳_电报频道： @shendu666_1
-      - 🇹🇼_电报频道： @shendu666_1
+      - 🇨🇳_电报频道： @shendu666_2
+      - 🇺🇸_电报频道： @shendu666_1
       - 🇺🇸_电报频道： @shendu666_2
       - 🇺🇸_电报频道： @shendu666_3
-      - 🇺🇸_电报频道： @shendu666_4
-      - 🇯🇵_电报频道： @shendu666_1
-      - 🇺🇸_电报频道： @shendu666_5
-      - 美国-3.66MB/s(Youtube:不良林)
-      - 美国-4.78MB/s(Youtube:不良林)
-      - 🇨🇳_电报频道： @shendu666_2
-      - 🇺🇸_电报频道： @shendu666_6
-      - 🇨🇳_电报频道： @shendu666_3
-      - 🇨🇳_电报频道： @shendu666_4
-      - 🇺🇸_电报频道： @shendu666_7
-      - 🇺🇸_电报频道： @shendu666_8
-      - 🇺🇸_电报频道： @shendu666_9
-      - 🇹🇼_电报频道： @shendu666_2
-      - 美国-5.16MB/s(Youtube:不良林)
-      - 美国-3.02MB/s(Youtube:不良林)
-      - 韩国-2.16MB/s(Youtube:不良林)
-      - 台湾-806.2KB/s(Youtube:不良林)
-      - 日本-4.75MB/s(Youtube:不良林)
-      - 日本-8.02MB/s(Youtube:不良林)
-      - 英国-3.30MB/s(Youtube:不良林)
-      - 中国-1.39MB/s(Youtube:不良林)
-      - 🇨🇳_电报频道： @shendu666_5
-      - 🇨🇳_电报频道： @shendu666_6
-      - 🇨🇳_电报频道： @shendu666_7
-      - 🇨🇳_电报频道： @shendu666_8
-      - 🇨🇳_电报频道： @shendu666_9
-      - 🇨🇳_电报频道： @shendu666_10
-      - 🇨🇳_电报频道： @shendu666_11
-      - 🇨🇳_电报频道： @shendu666_12
-      - 🇨🇳_电报频道： @shendu666_13
-      - 🇺🇸_电报频道： @shendu666_10
-      - 🇺🇸_电报频道： @shendu666_11
-      - 🇺🇸_电报频道： @shendu666_12
-      - 🇺🇸_电报频道： @shendu666_13
-      - 🇺🇸_电报频道： @shendu666_14
-      - 🇭🇰_电报频道： @shendu666
-      - 🇨🇳_电报频道： @shendu666_14
-      - 🇨🇳_电报频道： @shendu666_15
-      - 🇺🇸_电报频道： @shendu666_15
-      - 🇺🇸_电报频道： @shendu666_16
-      - 🇺🇸_电报频道： @shendu666_17
-      - 🇺🇸_电报频道： @shendu666_18
-      - 🇺🇸_电报频道： @shendu666_19
-      - 🇺🇸_电报频道： @shendu666_20
-      - 🇺🇸_电报频道： @shendu666_21
-      - 🇫🇷_电报频道： @shendu666_1
-      - 🇫🇷_电报频道： @shendu666_2
-      - 🇺🇸_电报频道： @shendu666_22
-      - 🇺🇸_电报频道： @shendu666_23
-      - 🇸🇬_电报频道： @shendu666_1
-      - 🇸🇬_电报频道： @shendu666_2
-      - 🇸🇬_电报频道： @shendu666_3
-      - 🇯🇵_电报频道： @shendu666_2
-      - 🇬🇧_电报频道： @shendu666
-      - 🇺🇸_电报频道： @shendu666_24
-      - 🇺🇸_电报频道： @shendu666_25
-      - 🇺🇸_电报频道： @shendu666_26
-      - 🇺🇸_电报频道： @shendu666_27
-      - 🇺🇸_电报频道： @shendu666_28
-      - 🇺🇸_电报频道： @shendu666_29
-      - 🇨🇳_电报频道： @shendu666_16
-      - 🇨🇳_电报频道： @shendu666_17
-      - 🇨🇳_电报频道： @shendu666_18
-      - 🇨🇳_电报频道： @shendu666_19
-      - 🇺🇸_电报频道： @shendu666_30
-      - 🇺🇸_电报频道： @shendu666_31
-      - 🇫🇷_电报频道： @shendu666_3
-      - 🇫🇷_电报频道： @shendu666_4
-      - 🇺🇸_电报频道： @shendu666_32
-      - 🇸🇬_电报频道： @shendu666_4
-      - 🇺🇸_电报频道： @shendu666_33
-      - 🇯🇵_电报频道： @shendu666_3
-      - 🇨🇳_电报频道： @shendu666_20
-      - 🇺🇸_电报频道： @shendu666_34
-      - 🇺🇸_电报频道： @shendu666_35
-      - 🇺🇸_电报频道： @shendu666_36
-      - 🇺🇸_电报频道： @shendu666_37
-      - 🇨🇳_电报频道： @shendu666_21
-      - 🇸🇬_电报频道： @shendu666_5
-      - 🇯🇵_电报频道： @shendu666_4
-      - 🇯🇵_电报频道： @shendu666_5
-      - 🇸🇬_电报频道： @shendu666_6
-      - 🇺🇸_电报频道： @shendu666_38
-      - 🇻🇳_电报频道： @shendu666
-      - 🇺🇸_电报频道： @shendu666_39
-      - 🇺🇸_电报频道： @shendu666_40
-      - 美国-1.70MB/s(Youtube:不良林)
-      - 美国-850.5KB/s(Youtube:不良林)
-      - 美国-4.41MB/s(Youtube:不良林)
       - 美国-347.5KB/s(Youtube:不良林)
-      - 韩国-966.9KB/s(Youtube:不良林)
-      - 美国-4.97MB/s(Youtube:不良林)
-      - 新加坡-173.6KB/s(Youtube:不良林)
-      - 美国-4.92MB/s(Youtube:不良林)
-      - 印度-3.09MB/s(Youtube:不良林)
-      - 美国-3.35MB/s(Youtube:不良林)
-      - 美国-2.97MB/s(Youtube:不良林)
-      - 未知国家-3.44MB/s(Youtube:不良林)
-      - 香港-1.36MB/s(Youtube:不良林)
-      - 香港-1.29MB/s(Youtube:不良林)
-      - 美国-4.14MB/s(Youtube:不良林)
+      - 🇺🇸_电报频道： @shendu666_4
+      - 美国-5.03MB/s(Youtube:不良林)
+      - 美国-352.4KB/s(Youtube:不良林)
+      - 🇺🇸_电报频道： @shendu666_5
+      - 法国-3.20MB/s(Youtube:不良林)
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 日本-2.01MB/s(Youtube:不良林)
-      - 美国-2.89MB/s(Youtube:不良林)
-      - 🇺🇸_电报频道： @shendu666_1
+      - 美国-4.45MB/s(Youtube:不良林)
+      - 🇯🇵_电报频道： @shendu666
       - 🇨🇳_电报频道： @shendu666_1
-      - 🇹🇼_电报频道： @shendu666_1
+      - 🇨🇳_电报频道： @shendu666_2
+      - 🇺🇸_电报频道： @shendu666_1
       - 🇺🇸_电报频道： @shendu666_2
       - 🇺🇸_电报频道： @shendu666_3
-      - 🇺🇸_电报频道： @shendu666_4
-      - 🇯🇵_电报频道： @shendu666_1
-      - 🇺🇸_电报频道： @shendu666_5
-      - 美国-3.66MB/s(Youtube:不良林)
-      - 美国-4.78MB/s(Youtube:不良林)
-      - 🇨🇳_电报频道： @shendu666_2
-      - 🇺🇸_电报频道： @shendu666_6
-      - 🇨🇳_电报频道： @shendu666_3
-      - 🇨🇳_电报频道： @shendu666_4
-      - 🇺🇸_电报频道： @shendu666_7
-      - 🇺🇸_电报频道： @shendu666_8
-      - 🇺🇸_电报频道： @shendu666_9
-      - 🇹🇼_电报频道： @shendu666_2
-      - 美国-5.16MB/s(Youtube:不良林)
-      - 美国-3.02MB/s(Youtube:不良林)
-      - 韩国-2.16MB/s(Youtube:不良林)
-      - 台湾-806.2KB/s(Youtube:不良林)
-      - 日本-4.75MB/s(Youtube:不良林)
-      - 日本-8.02MB/s(Youtube:不良林)
-      - 英国-3.30MB/s(Youtube:不良林)
-      - 中国-1.39MB/s(Youtube:不良林)
-      - 🇨🇳_电报频道： @shendu666_5
-      - 🇨🇳_电报频道： @shendu666_6
-      - 🇨🇳_电报频道： @shendu666_7
-      - 🇨🇳_电报频道： @shendu666_8
-      - 🇨🇳_电报频道： @shendu666_9
-      - 🇨🇳_电报频道： @shendu666_10
-      - 🇨🇳_电报频道： @shendu666_11
-      - 🇨🇳_电报频道： @shendu666_12
-      - 🇨🇳_电报频道： @shendu666_13
-      - 🇺🇸_电报频道： @shendu666_10
-      - 🇺🇸_电报频道： @shendu666_11
-      - 🇺🇸_电报频道： @shendu666_12
-      - 🇺🇸_电报频道： @shendu666_13
-      - 🇺🇸_电报频道： @shendu666_14
-      - 🇭🇰_电报频道： @shendu666
-      - 🇨🇳_电报频道： @shendu666_14
-      - 🇨🇳_电报频道： @shendu666_15
-      - 🇺🇸_电报频道： @shendu666_15
-      - 🇺🇸_电报频道： @shendu666_16
-      - 🇺🇸_电报频道： @shendu666_17
-      - 🇺🇸_电报频道： @shendu666_18
-      - 🇺🇸_电报频道： @shendu666_19
-      - 🇺🇸_电报频道： @shendu666_20
-      - 🇺🇸_电报频道： @shendu666_21
-      - 🇫🇷_电报频道： @shendu666_1
-      - 🇫🇷_电报频道： @shendu666_2
-      - 🇺🇸_电报频道： @shendu666_22
-      - 🇺🇸_电报频道： @shendu666_23
-      - 🇸🇬_电报频道： @shendu666_1
-      - 🇸🇬_电报频道： @shendu666_2
-      - 🇸🇬_电报频道： @shendu666_3
-      - 🇯🇵_电报频道： @shendu666_2
-      - 🇬🇧_电报频道： @shendu666
-      - 🇺🇸_电报频道： @shendu666_24
-      - 🇺🇸_电报频道： @shendu666_25
-      - 🇺🇸_电报频道： @shendu666_26
-      - 🇺🇸_电报频道： @shendu666_27
-      - 🇺🇸_电报频道： @shendu666_28
-      - 🇺🇸_电报频道： @shendu666_29
-      - 🇨🇳_电报频道： @shendu666_16
-      - 🇨🇳_电报频道： @shendu666_17
-      - 🇨🇳_电报频道： @shendu666_18
-      - 🇨🇳_电报频道： @shendu666_19
-      - 🇺🇸_电报频道： @shendu666_30
-      - 🇺🇸_电报频道： @shendu666_31
-      - 🇫🇷_电报频道： @shendu666_3
-      - 🇫🇷_电报频道： @shendu666_4
-      - 🇺🇸_电报频道： @shendu666_32
-      - 🇸🇬_电报频道： @shendu666_4
-      - 🇺🇸_电报频道： @shendu666_33
-      - 🇯🇵_电报频道： @shendu666_3
-      - 🇨🇳_电报频道： @shendu666_20
-      - 🇺🇸_电报频道： @shendu666_34
-      - 🇺🇸_电报频道： @shendu666_35
-      - 🇺🇸_电报频道： @shendu666_36
-      - 🇺🇸_电报频道： @shendu666_37
-      - 🇨🇳_电报频道： @shendu666_21
-      - 🇸🇬_电报频道： @shendu666_5
-      - 🇯🇵_电报频道： @shendu666_4
-      - 🇯🇵_电报频道： @shendu666_5
-      - 🇸🇬_电报频道： @shendu666_6
-      - 🇺🇸_电报频道： @shendu666_38
-      - 🇻🇳_电报频道： @shendu666
-      - 🇺🇸_电报频道： @shendu666_39
-      - 🇺🇸_电报频道： @shendu666_40
-      - 美国-1.70MB/s(Youtube:不良林)
-      - 美国-850.5KB/s(Youtube:不良林)
-      - 美国-4.41MB/s(Youtube:不良林)
       - 美国-347.5KB/s(Youtube:不良林)
-      - 韩国-966.9KB/s(Youtube:不良林)
-      - 美国-4.97MB/s(Youtube:不良林)
-      - 新加坡-173.6KB/s(Youtube:不良林)
-      - 美国-4.92MB/s(Youtube:不良林)
-      - 印度-3.09MB/s(Youtube:不良林)
-      - 美国-3.35MB/s(Youtube:不良林)
-      - 美国-2.97MB/s(Youtube:不良林)
-      - 未知国家-3.44MB/s(Youtube:不良林)
-      - 香港-1.36MB/s(Youtube:不良林)
-      - 香港-1.29MB/s(Youtube:不良林)
-      - 美国-4.14MB/s(Youtube:不良林)
+      - 🇺🇸_电报频道： @shendu666_4
+      - 美国-5.03MB/s(Youtube:不良林)
+      - 美国-352.4KB/s(Youtube:不良林)
+      - 🇺🇸_电报频道： @shendu666_5
+      - 法国-3.20MB/s(Youtube:不良林)
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 日本-2.01MB/s(Youtube:不良林)
-      - 美国-2.89MB/s(Youtube:不良林)
-      - 🇺🇸_电报频道： @shendu666_1
+      - 美国-4.45MB/s(Youtube:不良林)
+      - 🇯🇵_电报频道： @shendu666
       - 🇨🇳_电报频道： @shendu666_1
-      - 🇹🇼_电报频道： @shendu666_1
+      - 🇨🇳_电报频道： @shendu666_2
+      - 🇺🇸_电报频道： @shendu666_1
       - 🇺🇸_电报频道： @shendu666_2
       - 🇺🇸_电报频道： @shendu666_3
-      - 🇺🇸_电报频道： @shendu666_4
-      - 🇯🇵_电报频道： @shendu666_1
-      - 🇺🇸_电报频道： @shendu666_5
-      - 美国-3.66MB/s(Youtube:不良林)
-      - 美国-4.78MB/s(Youtube:不良林)
-      - 🇨🇳_电报频道： @shendu666_2
-      - 🇺🇸_电报频道： @shendu666_6
-      - 🇨🇳_电报频道： @shendu666_3
-      - 🇨🇳_电报频道： @shendu666_4
-      - 🇺🇸_电报频道： @shendu666_7
-      - 🇺🇸_电报频道： @shendu666_8
-      - 🇺🇸_电报频道： @shendu666_9
-      - 🇹🇼_电报频道： @shendu666_2
-      - 美国-5.16MB/s(Youtube:不良林)
-      - 美国-3.02MB/s(Youtube:不良林)
-      - 韩国-2.16MB/s(Youtube:不良林)
-      - 台湾-806.2KB/s(Youtube:不良林)
-      - 日本-4.75MB/s(Youtube:不良林)
-      - 日本-8.02MB/s(Youtube:不良林)
-      - 英国-3.30MB/s(Youtube:不良林)
-      - 中国-1.39MB/s(Youtube:不良林)
-      - 🇨🇳_电报频道： @shendu666_5
-      - 🇨🇳_电报频道： @shendu666_6
-      - 🇨🇳_电报频道： @shendu666_7
-      - 🇨🇳_电报频道： @shendu666_8
-      - 🇨🇳_电报频道： @shendu666_9
-      - 🇨🇳_电报频道： @shendu666_10
-      - 🇨🇳_电报频道： @shendu666_11
-      - 🇨🇳_电报频道： @shendu666_12
-      - 🇨🇳_电报频道： @shendu666_13
-      - 🇺🇸_电报频道： @shendu666_10
-      - 🇺🇸_电报频道： @shendu666_11
-      - 🇺🇸_电报频道： @shendu666_12
-      - 🇺🇸_电报频道： @shendu666_13
-      - 🇺🇸_电报频道： @shendu666_14
-      - 🇭🇰_电报频道： @shendu666
-      - 🇨🇳_电报频道： @shendu666_14
-      - 🇨🇳_电报频道： @shendu666_15
-      - 🇺🇸_电报频道： @shendu666_15
-      - 🇺🇸_电报频道： @shendu666_16
-      - 🇺🇸_电报频道： @shendu666_17
-      - 🇺🇸_电报频道： @shendu666_18
-      - 🇺🇸_电报频道： @shendu666_19
-      - 🇺🇸_电报频道： @shendu666_20
-      - 🇺🇸_电报频道： @shendu666_21
-      - 🇫🇷_电报频道： @shendu666_1
-      - 🇫🇷_电报频道： @shendu666_2
-      - 🇺🇸_电报频道： @shendu666_22
-      - 🇺🇸_电报频道： @shendu666_23
-      - 🇸🇬_电报频道： @shendu666_1
-      - 🇸🇬_电报频道： @shendu666_2
-      - 🇸🇬_电报频道： @shendu666_3
-      - 🇯🇵_电报频道： @shendu666_2
-      - 🇬🇧_电报频道： @shendu666
-      - 🇺🇸_电报频道： @shendu666_24
-      - 🇺🇸_电报频道： @shendu666_25
-      - 🇺🇸_电报频道： @shendu666_26
-      - 🇺🇸_电报频道： @shendu666_27
-      - 🇺🇸_电报频道： @shendu666_28
-      - 🇺🇸_电报频道： @shendu666_29
-      - 🇨🇳_电报频道： @shendu666_16
-      - 🇨🇳_电报频道： @shendu666_17
-      - 🇨🇳_电报频道： @shendu666_18
-      - 🇨🇳_电报频道： @shendu666_19
-      - 🇺🇸_电报频道： @shendu666_30
-      - 🇺🇸_电报频道： @shendu666_31
-      - 🇫🇷_电报频道： @shendu666_3
-      - 🇫🇷_电报频道： @shendu666_4
-      - 🇺🇸_电报频道： @shendu666_32
-      - 🇸🇬_电报频道： @shendu666_4
-      - 🇺🇸_电报频道： @shendu666_33
-      - 🇯🇵_电报频道： @shendu666_3
-      - 🇨🇳_电报频道： @shendu666_20
-      - 🇺🇸_电报频道： @shendu666_34
-      - 🇺🇸_电报频道： @shendu666_35
-      - 🇺🇸_电报频道： @shendu666_36
-      - 🇺🇸_电报频道： @shendu666_37
-      - 🇨🇳_电报频道： @shendu666_21
-      - 🇸🇬_电报频道： @shendu666_5
-      - 🇯🇵_电报频道： @shendu666_4
-      - 🇯🇵_电报频道： @shendu666_5
-      - 🇸🇬_电报频道： @shendu666_6
-      - 🇺🇸_电报频道： @shendu666_38
-      - 🇻🇳_电报频道： @shendu666
-      - 🇺🇸_电报频道： @shendu666_39
-      - 🇺🇸_电报频道： @shendu666_40
-      - 美国-1.70MB/s(Youtube:不良林)
-      - 美国-850.5KB/s(Youtube:不良林)
-      - 美国-4.41MB/s(Youtube:不良林)
       - 美国-347.5KB/s(Youtube:不良林)
-      - 韩国-966.9KB/s(Youtube:不良林)
-      - 美国-4.97MB/s(Youtube:不良林)
-      - 新加坡-173.6KB/s(Youtube:不良林)
-      - 美国-4.92MB/s(Youtube:不良林)
-      - 印度-3.09MB/s(Youtube:不良林)
-      - 美国-3.35MB/s(Youtube:不良林)
-      - 美国-2.97MB/s(Youtube:不良林)
-      - 未知国家-3.44MB/s(Youtube:不良林)
-      - 香港-1.36MB/s(Youtube:不良林)
-      - 香港-1.29MB/s(Youtube:不良林)
-      - 美国-4.14MB/s(Youtube:不良林)
+      - 🇺🇸_电报频道： @shendu666_4
+      - 美国-5.03MB/s(Youtube:不良林)
+      - 美国-352.4KB/s(Youtube:不良林)
+      - 🇺🇸_电报频道： @shendu666_5
+      - 法国-3.20MB/s(Youtube:不良林)
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -833,114 +167,19 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 日本-2.01MB/s(Youtube:不良林)
-      - 美国-2.89MB/s(Youtube:不良林)
-      - 🇺🇸_电报频道： @shendu666_1
+      - 美国-4.45MB/s(Youtube:不良林)
+      - 🇯🇵_电报频道： @shendu666
       - 🇨🇳_电报频道： @shendu666_1
-      - 🇹🇼_电报频道： @shendu666_1
+      - 🇨🇳_电报频道： @shendu666_2
+      - 🇺🇸_电报频道： @shendu666_1
       - 🇺🇸_电报频道： @shendu666_2
       - 🇺🇸_电报频道： @shendu666_3
-      - 🇺🇸_电报频道： @shendu666_4
-      - 🇯🇵_电报频道： @shendu666_1
-      - 🇺🇸_电报频道： @shendu666_5
-      - 美国-3.66MB/s(Youtube:不良林)
-      - 美国-4.78MB/s(Youtube:不良林)
-      - 🇨🇳_电报频道： @shendu666_2
-      - 🇺🇸_电报频道： @shendu666_6
-      - 🇨🇳_电报频道： @shendu666_3
-      - 🇨🇳_电报频道： @shendu666_4
-      - 🇺🇸_电报频道： @shendu666_7
-      - 🇺🇸_电报频道： @shendu666_8
-      - 🇺🇸_电报频道： @shendu666_9
-      - 🇹🇼_电报频道： @shendu666_2
-      - 美国-5.16MB/s(Youtube:不良林)
-      - 美国-3.02MB/s(Youtube:不良林)
-      - 韩国-2.16MB/s(Youtube:不良林)
-      - 台湾-806.2KB/s(Youtube:不良林)
-      - 日本-4.75MB/s(Youtube:不良林)
-      - 日本-8.02MB/s(Youtube:不良林)
-      - 英国-3.30MB/s(Youtube:不良林)
-      - 中国-1.39MB/s(Youtube:不良林)
-      - 🇨🇳_电报频道： @shendu666_5
-      - 🇨🇳_电报频道： @shendu666_6
-      - 🇨🇳_电报频道： @shendu666_7
-      - 🇨🇳_电报频道： @shendu666_8
-      - 🇨🇳_电报频道： @shendu666_9
-      - 🇨🇳_电报频道： @shendu666_10
-      - 🇨🇳_电报频道： @shendu666_11
-      - 🇨🇳_电报频道： @shendu666_12
-      - 🇨🇳_电报频道： @shendu666_13
-      - 🇺🇸_电报频道： @shendu666_10
-      - 🇺🇸_电报频道： @shendu666_11
-      - 🇺🇸_电报频道： @shendu666_12
-      - 🇺🇸_电报频道： @shendu666_13
-      - 🇺🇸_电报频道： @shendu666_14
-      - 🇭🇰_电报频道： @shendu666
-      - 🇨🇳_电报频道： @shendu666_14
-      - 🇨🇳_电报频道： @shendu666_15
-      - 🇺🇸_电报频道： @shendu666_15
-      - 🇺🇸_电报频道： @shendu666_16
-      - 🇺🇸_电报频道： @shendu666_17
-      - 🇺🇸_电报频道： @shendu666_18
-      - 🇺🇸_电报频道： @shendu666_19
-      - 🇺🇸_电报频道： @shendu666_20
-      - 🇺🇸_电报频道： @shendu666_21
-      - 🇫🇷_电报频道： @shendu666_1
-      - 🇫🇷_电报频道： @shendu666_2
-      - 🇺🇸_电报频道： @shendu666_22
-      - 🇺🇸_电报频道： @shendu666_23
-      - 🇸🇬_电报频道： @shendu666_1
-      - 🇸🇬_电报频道： @shendu666_2
-      - 🇸🇬_电报频道： @shendu666_3
-      - 🇯🇵_电报频道： @shendu666_2
-      - 🇬🇧_电报频道： @shendu666
-      - 🇺🇸_电报频道： @shendu666_24
-      - 🇺🇸_电报频道： @shendu666_25
-      - 🇺🇸_电报频道： @shendu666_26
-      - 🇺🇸_电报频道： @shendu666_27
-      - 🇺🇸_电报频道： @shendu666_28
-      - 🇺🇸_电报频道： @shendu666_29
-      - 🇨🇳_电报频道： @shendu666_16
-      - 🇨🇳_电报频道： @shendu666_17
-      - 🇨🇳_电报频道： @shendu666_18
-      - 🇨🇳_电报频道： @shendu666_19
-      - 🇺🇸_电报频道： @shendu666_30
-      - 🇺🇸_电报频道： @shendu666_31
-      - 🇫🇷_电报频道： @shendu666_3
-      - 🇫🇷_电报频道： @shendu666_4
-      - 🇺🇸_电报频道： @shendu666_32
-      - 🇸🇬_电报频道： @shendu666_4
-      - 🇺🇸_电报频道： @shendu666_33
-      - 🇯🇵_电报频道： @shendu666_3
-      - 🇨🇳_电报频道： @shendu666_20
-      - 🇺🇸_电报频道： @shendu666_34
-      - 🇺🇸_电报频道： @shendu666_35
-      - 🇺🇸_电报频道： @shendu666_36
-      - 🇺🇸_电报频道： @shendu666_37
-      - 🇨🇳_电报频道： @shendu666_21
-      - 🇸🇬_电报频道： @shendu666_5
-      - 🇯🇵_电报频道： @shendu666_4
-      - 🇯🇵_电报频道： @shendu666_5
-      - 🇸🇬_电报频道： @shendu666_6
-      - 🇺🇸_电报频道： @shendu666_38
-      - 🇻🇳_电报频道： @shendu666
-      - 🇺🇸_电报频道： @shendu666_39
-      - 🇺🇸_电报频道： @shendu666_40
-      - 美国-1.70MB/s(Youtube:不良林)
-      - 美国-850.5KB/s(Youtube:不良林)
-      - 美国-4.41MB/s(Youtube:不良林)
       - 美国-347.5KB/s(Youtube:不良林)
-      - 韩国-966.9KB/s(Youtube:不良林)
-      - 美国-4.97MB/s(Youtube:不良林)
-      - 新加坡-173.6KB/s(Youtube:不良林)
-      - 美国-4.92MB/s(Youtube:不良林)
-      - 印度-3.09MB/s(Youtube:不良林)
-      - 美国-3.35MB/s(Youtube:不良林)
-      - 美国-2.97MB/s(Youtube:不良林)
-      - 未知国家-3.44MB/s(Youtube:不良林)
-      - 香港-1.36MB/s(Youtube:不良林)
-      - 香港-1.29MB/s(Youtube:不良林)
-      - 美国-4.14MB/s(Youtube:不良林)
+      - 🇺🇸_电报频道： @shendu666_4
+      - 美国-5.03MB/s(Youtube:不良林)
+      - 美国-352.4KB/s(Youtube:不良林)
+      - 🇺🇸_电报频道： @shendu666_5
+      - 法国-3.20MB/s(Youtube:不良林)
 
 rules:
 # 本地/局域网地址
